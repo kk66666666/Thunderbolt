@@ -12,7 +12,7 @@ y = 0
 let 左右 = 1
 basic.forever(function () {
     _5()
-    basic.pause(200)
+    basic.pause(100)
     _5()
     x += 左右
     if (x == 4) {
