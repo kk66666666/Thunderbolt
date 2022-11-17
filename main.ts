@@ -1,7 +1,7 @@
 let 亮度 = 0
 let n = 0
 let y = 0
-let x = 0
+let x = 2
 let 左右 = 1
 basic.forever(function () {
     basic.clearScreen()
@@ -22,5 +22,5 @@ basic.forever(function () {
         }
         y += 1
     }
-    basic.pause(100)
+    basic.pause(200)
 })
