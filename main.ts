@@ -13,14 +13,14 @@ basic.forever(function () {
     }
     x += 左右
     for (let index = 0; index < 5; index++) {
+        n = 0
+        亮度 = 255
         for (let index = 0; index < 5; index++) {
             led.plotBrightness(x - 左右 * n, y, 亮度)
             亮度 += -50
             n += 1
         }
-        n = 0
         y += 1
-        亮度 = 255
     }
     basic.pause(100)
 })
